@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "amethysttracker",
+  "version": "${version}",
+  "name": "Amethyst Chunk Tracker",
+  "description": "Markiert Chunks mit ausgewachsenen Amethyst-Clustern.",
+  "authors": [
+    "Dein Name"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/amethysttracker/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.deinname.amethysttracker.AmethystTrackerClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
